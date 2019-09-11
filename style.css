@@ -1,0 +1,311 @@
+*
+{
+    margin: 0;
+}
+
+
+.sec1>img
+{
+    height: 50px;
+    width: 50px;
+
+}
+
+.img2
+{
+    margin-left: 100px;
+}
+.item2
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: rgb(233, 126, 144);
+}
+.item2:hover > .ligne
+{
+    width: 100%;
+    transition: 0.5s;
+    height: 5px;
+    margin-top: 5px;
+}
+.ligne
+{
+    width:0%;
+    height: 10px;
+    background-color: rgb(221, 67, 170);
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.item:hover > .ligne
+{
+    width: 100%;
+    transition: 0.5s;
+    height: 5px;
+    margin-top: 5px;
+}
+.item2:hover
+{
+    color: rgb(224, 191, 223);
+}
+.sec1
+{
+    display: flex;
+    background-color: rgb(250, 227, 250);
+  
+}
+.sec1 .item
+{   
+   margin-left: 3vw;
+    padding-left: 0.5vw;
+    padding-right: 0.25vw;
+    text-decoration: none;
+    color: rgb(233, 126, 144);
+
+   
+
+}
+.item:hover
+{
+    color: rgb(224, 191, 223);
+}
+
+
+.sec2
+{
+    background-color: rgb(255, 132, 245);
+    display: flex;
+    /* background-image: url(https://www.ultrafabrics.com/v/vspfiles/photos/2119-132-2.jpg);
+    background-size: cover; */
+}
+#b
+{
+    margin-top: 20px;
+    height:35px;
+    width: 200px;
+}
+
+.sec2>img
+{   height: 700px;
+    /* margin-left: 410px; */
+    flex: 2;
+}
+.sec2 .blue
+{
+    color: white;
+}
+.sec2 .text
+{ 
+    text-align: center;
+    color: rgb(73, 30, 75);
+    width: max-content; 
+    margin-top: 180px;
+   
+
+  
+}
+
+.box>img
+{
+  height: 535px;
+  width: 420px;
+  margin-top: 100px;
+}
+.box>img:hover
+{
+    outline: 1px inset;
+    outline-color: rgb(248, 183, 226);
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+.box>h2
+{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: rgb(228, 106, 126);
+
+}
+
+#b2
+{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    text-decoration-color: white;
+    margin-left: 100px;
+
+}
+
+.white
+{
+    color: white;
+}
+
+.boxes
+{
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start; */
+}
+
+.sec4
+{
+    background-color: rgb(247, 214, 219);
+    height:1200px;
+}
+.feedback
+{
+    height:max-content;
+    width: 400px;
+    margin-left: 40%;
+    box-shadow: 3px 5px rgb(185, 163, 185);
+    padding-top: 10px;
+}
+
+.feedback:hover
+{
+    outline: 1px inset;
+    outline-color: rgb(248, 183, 226);
+    transition: 0.5s;
+    background-color: rgb(255, 195, 243);
+    transform: scale(1.1);
+   
+    
+}
+
+#field
+{
+    
+}
+
+
+#in
+{
+    margin-left: 150px;
+    height:40px;
+    width: 100px;
+    background-color: rgb(241, 147, 226);
+}
+
+
+
+
+
+
+
+
+
+
+
+*, *:after, *:before {
+    padding:0;
+    margin:0;
+    font-family:Arial;
+  }
+  
+  
+  ul  {
+    /* position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; */
+    margin:auto;
+    list-style:none;
+    width:max-content;
+    /* height:auto; */
+    border-radius:50px;
+    overflow:hidden;
+    box-shadow:1px 1px 3px 1px;
+  }
+  
+  
+   li {
+    position:relative;
+    width:190px;
+    height:400px;
+    float:left;
+    border-left:1px solid white;
+    -webkit-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+    transition:all 0.7s;
+    box-shadow:-2px 0 10px 2px;
+  }
+  
+  ul li:first-child {
+    border:none;
+  }
+  
+  
+  .sec5>img {
+    width:max-content;
+    height:450px;
+  } 
+  
+  ul:hover li {
+    width:50px;  
+  }
+  
+  
+  ul li:hover {
+    width:750px;
+  }
+html{
+       scroll-behavior: smooth;
+   }
+.sec1 .a{
+    text-decoration: none;
+}
+
+.sec6
+{
+    background-color: black;
+}
+
+.white>h3
+{
+    margin-left: 700px;
+
+}
+.white>p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.white
+{
+    color: white;
+}
+
+.boxl
+{
+    margin-left: 670px;
+    
+}
+.boxl>img
+{
+    padding-right: 20px;
+}
+
+
+
+
+.i::after
+{
+    top:-100%;
+    left: 0px;
+    width:100%;
+    position: absolute;
+    background: #3a9999;
+    border-radius: 5px;
+    content: 'Flipped';
+    transform-origin: left bottom;
+    transform: rotateY(90deg);
+}
+.i:hover
+{
+    transform-origin: center bottom;
+    transform: rotateY(360deg) ;
+    transition: 1s;
+}
